@@ -179,53 +179,7 @@ Add:
 4. Verify product authenticity
 5. Check Ganache logs
 
----
 
-# ⚠️ Common Issues & Fixes
-
----
-
-## ❌ Error: "Could not find suitable configuration file"
-
-👉 Run inside project folder:
-
-```bash
-cd ~/Fake-Product-Identification
-```
-
----
-
-## ❌ Error: "ENOENT: no such file or directory, package.json"
-
-👉 You are outside project directory
-Fix:
-
-```bash
-cd ~/Fake-Product-Identification
-```
-
----
-
-## ❌ Frontend not opening
-
-```bash
-npm run dev -- --host 0.0.0.0
-```
-
----
-
-## ❌ App not accessible from browser
-
-✔ Use PUBLIC IP
-✔ Open port 3000 in AWS
-
----
-
-## ❌ Contract not deploying
-
-```bash
-truffle migrate --reset
-```
 
 ---
 
